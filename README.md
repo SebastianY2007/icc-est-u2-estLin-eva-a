@@ -88,5 +88,3 @@ Para contribuir a este proyecto, por favor crea un fork y envía una solicitud d
 
 - [PABLO TORRES] - Desarrollo inicial
 ```
-
-¿Deseas que genere este `README.md` como archivo para descarga o lo dejo listo para que lo pegues tú manualmente?
