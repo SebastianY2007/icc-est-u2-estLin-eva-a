@@ -1,5 +1,7 @@
 package main;
 
+import main.Node;
+
 public class AVLTree {
     private Node node;
 

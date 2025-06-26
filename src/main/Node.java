@@ -2,23 +2,26 @@ package main;
 
 public class Node {
     private int value;
-    private int height;
-    private Node left;
-    private Node right;
+    private int heigth;
+    private Node left, right;
 
-    public Node(int value){
+    public Node(int value) {
         this.value = value;
+        this.heigth = 1;
         this.left = null;
         this.right = null;
-        this.height = 1;
     }
 
     public int getValue() {
         return value;
     }
 
-    public void setValue(int value) {
-        this.value = value;
+    public int getHeigth() {
+        return heigth;
+    }
+
+    public void setHeigth(int heigth) {
+        this.heigth = heigth;
     }
 
     public Node getLeft() {
@@ -35,13 +38,5 @@ public class Node {
 
     public void setRight(Node right) {
         this.right = right;
-    }
-
-    public int getHeight() {
-        return height;
-    }
-
-    public void setHeight(int height) {
-        this.height = height;
     }
 }
